@@ -1,0 +1,17 @@
+{
+    "name": "mrandrej/composer-autoload-example",
+    "authors": [
+        {
+            "name": "Andrej Ilievski",
+            "email": "mrandrej.ilievski@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/Wcs"
+        }
+    }
+}
